@@ -1,0 +1,124 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "test-Customer",
+    "collectionId": "7456d40c-25b4-4739-bb65-5af09c7b4a2e",
+    "dateExported": "2024-08-30T08:51:32.159Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "a41025e2-fb3a-4a31-88a6-eedbfc6fa8b1",
+            "colId": "7456d40c-25b4-4739-bb65-5af09c7b4a2e",
+            "containerId": "",
+            "name": "Create Customer",
+            "url": "http://localhost:4000/customer",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-08-30T07:42:55.891Z",
+            "modified": "2024-08-30T07:54:30.699Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"firstName\":\"Vinod\",\n  \"lastName\":\"chaudhary\",\n  \"city\":\"Marwar\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "9ca1d2af-8632-43c2-a5dc-9ca991ce4f09",
+            "colId": "7456d40c-25b4-4739-bb65-5af09c7b4a2e",
+            "containerId": "",
+            "name": "update Customer By Id",
+            "url": "http://localhost:4000/customer/66d17a295d746e6ca6224b6f",
+            "method": "PUT",
+            "sortNum": 20000,
+            "created": "2024-08-30T08:05:01.811Z",
+            "modified": "2024-08-30T08:07:53.341Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"firstName\":\"RAHUL\",\n  \"lastName\":\"Yadav\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "3c4d50d2-1979-4a23-9c08-937ad72b4dc2",
+            "colId": "7456d40c-25b4-4739-bb65-5af09c7b4a2e",
+            "containerId": "",
+            "name": "get All Customers",
+            "url": "http://localhost:4000/customer?page=1&limit=2",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2024-08-30T08:35:00.088Z",
+            "modified": "2024-08-30T08:35:31.288Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "page",
+                    "value": "1",
+                    "isPath": false
+                },
+                {
+                    "name": "limit",
+                    "value": "2",
+                    "isPath": false
+                }
+            ]
+        },
+        {
+            "_id": "10e13295-3002-4881-b33f-bfe5427deb29",
+            "colId": "7456d40c-25b4-4739-bb65-5af09c7b4a2e",
+            "containerId": "",
+            "name": "get Customerr by Name or City",
+            "url": "http://localhost:4000/customer/single?search=chauhan",
+            "method": "GET",
+            "sortNum": 60000,
+            "created": "2024-08-30T08:43:18.534Z",
+            "modified": "2024-08-30T08:46:47.390Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "search",
+                    "value": "chauhan",
+                    "isPath": false
+                }
+            ]
+        },
+        {
+            "_id": "edce0cc9-ac80-46f2-abf3-5b53b4ca1aad",
+            "colId": "7456d40c-25b4-4739-bb65-5af09c7b4a2e",
+            "containerId": "",
+            "name": "Get Customer by ID",
+            "url": "http://localhost:4000/customer/66d17a295d746e6ca6224b6f",
+            "method": "GET",
+            "sortNum": 70000,
+            "created": "2024-08-30T08:47:09.438Z",
+            "modified": "2024-08-30T08:47:59.342Z",
+            "headers": []
+        },
+        {
+            "_id": "3711e472-b929-4ba8-a828-643a2b20461c",
+            "colId": "7456d40c-25b4-4739-bb65-5af09c7b4a2e",
+            "containerId": "",
+            "name": "get customers city-wise",
+            "url": "http://localhost:4000/customer/city/data",
+            "method": "GET",
+            "sortNum": 90000,
+            "created": "2024-08-30T08:49:12.252Z",
+            "modified": "2024-08-30T08:50:20.645Z",
+            "headers": []
+        },
+        {
+            "_id": "22c7dd22-d5ce-48fa-b2b6-2e9db3fb9d34",
+            "colId": "7456d40c-25b4-4739-bb65-5af09c7b4a2e",
+            "containerId": "",
+            "name": "get User By City",
+            "url": "http://localhost:4000/customer/city/data/ahmedabad",
+            "method": "GET",
+            "sortNum": 100000,
+            "created": "2024-08-30T08:50:51.667Z",
+            "modified": "2024-08-30T08:51:19.539Z",
+            "headers": []
+        }
+    ],
+    "ref": "_NzJSM0m4tJGzXjcen9Im-b2uXm5Kl8uvui-ZDm5JG6dQHKkfk1Rqr_TjkXyFwpaMRd-enbn9LCY5distZhwAw"
+}
